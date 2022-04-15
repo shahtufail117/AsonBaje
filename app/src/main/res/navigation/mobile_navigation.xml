@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.asonbaje.test.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gift"
+        android:name="com.asonbaje.test.ui.Gift.GiftFragment"
+        android:label="@string/menu_gift"
+        tools:layout="@layout/fragment_gift" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.asonbaje.test.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_checkout"
+        android:name="com.asonbaje.test.ui.checkout.CheckoutFragment"
+        android:label="@string/menu_checkout"
+        tools:layout="@layout/checkout" />
+    <fragment
+        android:id="@+id/nav_InternationalHome"
+        android:name="com.asonbaje.test.ui.InternationalHome.InternationalHome"
+        android:label="@string/menu_InternationalHome"
+        tools:layout="@layout/fragment_internationalhome" />
+    <fragment
+        android:id="@+id/nav_InternationalGift"
+        android:name="com.asonbaje.test.ui.InternationalGift.InternationalGift"
+        android:label="@string/menu_InternationalGift"
+        tools:layout="@layout/fragment_internationalgift" />
+    <fragment
+        android:id="@+id/nav_InternationalLogin"
+        android:name="com.asonbaje.test.ui.InternationalLogin.InternationalLogin"
+        android:label="@string/menu_InternationalLogin"
+        tools:layout="@layout/fragment_internationallogin" />
+    <fragment
+        android:id="@+id/nav_InternationalCheckout"
+        android:name="com.asonbaje.test.ui.InternationalCheckout.InternationalCheckout"
+        android:label="@string/menu_InternationalCheckout"
+        tools:layout="@layout/fragment_internationalcheckout" />
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="com.asonbaje.test.ui.blog.blogFragment"
+        android:label="@string/menu_blog"
+        tools:layout="@layout/blog" />
+    <fragment
+        android:id="@+id/nav_Intblog"
+        android:name="com.asonbaje.test.ui.IntBlog.IntBlogFragment"
+        android:label="@string/menu_Intblog"
+        tools:layout="@layout/intblog" />
+</navigation>

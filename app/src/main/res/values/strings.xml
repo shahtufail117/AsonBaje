@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ason Baje</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">support@asonbaje.com.np</string>
+    <string name="nav_header_subtitle">+977-9803886597</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gift">Gift</string>
+    <string name="menu_checkout">Checkout</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_InternationalHome">Int Home</string>
+    <string name="menu_InternationalGift">Int Gift</string>
+    <string name="menu_InternationalCheckout">Int Checkout</string>
+    <string name="menu_InternationalLogin">Int Login</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_Intblog">Int Blog</string>
+</resources>
